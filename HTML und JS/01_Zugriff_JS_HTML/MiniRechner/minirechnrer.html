@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <style>
+        #addieren {
+            background-color: red;
+        }
+        #subtrahieren {
+            background-color: blue;
+            color: white;
+        }
+        #multiplizieren {
+            background-color: aquamarine;
+        }
+        #dividieren {
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Super Page</h1>
+    <div id="content1">
+        A<input type="text" id="number1"/>
+        B<input type="text" id="number2"/>
+        <button onclick="addieren()" id="addieren">Addieren</button>
+        <button onclick="subtrahieren()" id="subtrahieren">Subtrahieren</button>
+        <button onclick="multiplizieren()" id="multiplizieren">Multiplizieren</button>
+        <button onclick="dividieren()" id="dividieren">Dividieren</button>
+    </div>
+</body>
+</html>
