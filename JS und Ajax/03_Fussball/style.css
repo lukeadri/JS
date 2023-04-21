@@ -1,0 +1,61 @@
+.box{
+    display: flex;
+    height: 60px;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(208, 207, 207);
+    border-color: black;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    cursor: not-allowed;
+    background-color: red;
+}   
+
+.title{  
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 30px;
+    margin-top: 40px;
+    width: 600px;
+}
+
+.buttontext{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor:help;
+    background-color: red;
+}
+
+
+.joke{
+    background-color: lightskyblue;
+    border: solid;
+    border-color: blue;
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.joke li{
+    padding: 10px;
+    color:black;
+    font-weight: bold;
+
+}
